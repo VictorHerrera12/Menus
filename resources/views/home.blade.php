@@ -1,6 +1,15 @@
-@extends('layout')
+@extends('adminlte::page')
+
+@section('title', 'Home')
+
+@section('content_header')
+    <h1>Home</h1>
+@stop
 
 @section('content')
-    <h1>Home</h1>
     <p>Bienvenido a la pagina principal</p>
-@endsection
+@stop
+
+@section('footer')
+    <strong>Realizado por: Victor Herrera</strong>
+@stop

@@ -1,6 +1,15 @@
-@extends('layout')
+@extends('adminlte::page')
+
+@section('title', 'Contact')
+
+@section('content_header')
+    <h1>Contact</h1>
+@stop
 
 @section('content')
-    <h1>Contact</h1>
     <p>Contactanos aqui</p>
-@endsection
+@stop
+
+@section('footer')
+    <strong>Realizado por: Victor Herrera</strong>
+@stop
